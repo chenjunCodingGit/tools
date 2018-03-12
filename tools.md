@@ -9,7 +9,7 @@ www.j--d.com/bezier   贝塞尔曲线
 http://www.25xt.com/appsize  //媒体查询手机尺寸
 https://www.cnblogs.com/think_fish/p/3800241.html   //冷门js、css技巧
 https://github.com/markyun/My-blog/blob/master/Front-end-Developer-Questions/Questions-and-Answers/README.md     //前端开发面试题
-https://pixplicity.com/dp-px-converter/     px与dp的转换，在各种屏幕上
+https://pixplicity.com/dp-px-converter/     px与dp的转换，在各种屏幕上  
 mongo:email:773390648   pwd:773390648qq.com
 ``` 
 ## js常用工具
@@ -186,7 +186,8 @@ https://github.com/nswbmw/N-blog
 3. Tab -- 显示工程信息
 4. Ctrl+d -- 取消选中图层
 5. T -> win -- 查看文字color、font-size等信息
-6.
+6. C(修剪) -> V(移动) -> Ctrl+Alt+Shift+s -- 动态轮播切图 
+7.  
 ```
 
 ## 其他
