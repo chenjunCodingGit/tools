@@ -109,17 +109,19 @@ apache 服务器:/Library/WebServer/Documents
 
 
               git使用
-git add .                    选择（映射）所有改变的文件
-git commit -am “XXX”         添加描述
-git pull origin some-branch  拉取某个分支
-git push origin some-branch  推送某个分支
-git status                   看看该分支的状态
-git branch new-branch        新建某个分支
-git checkout some-branch     切换到某个分支
-git tag                      查看该项目所有tag版本
-git tag v0.2.2               新建tag（只要以前没有该tag版本都可以）
-git push origin v0.2.2       将新建的tag提交到该分支
-git merge master             在develop分支，将master分支合并到develop(合并某分支到当前分支)
+git remote -v                    查看远程地址
+git add .                        选择（映射）所有改变的文件
+git commit -am “XXX”             添加描述
+git remote add origin xxx.git    添加到远程
+git pull origin some-branch      拉取某个分支
+git push (-u) origin some-branch 推送某个分支
+git status -s                    看看该分支的状态
+git branch new-branch        	 新建某个分支
+git checkout some-branch     	 切换到某个分支/切换并新建到本地的远程某个分支
+git tag                      	 查看该项目所有tag版本
+git tag v0.2.2              	 新建tag（只要以前没有该tag版本都可以）
+git push origin v0.2.2      	 将新建的tag提交到该分支
+git merge master            	 在develop分支，将master分支合并到develop(合并某分支到当前分支)
 
 修改好.git/config后
 git pull origin some-branch  拉取某个分支
