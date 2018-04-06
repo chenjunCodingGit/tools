@@ -194,7 +194,7 @@ https://github.com/nswbmw/N-blog
 
 ## mysql
 ```
-pws:newpasss
+pws:newpass
 ```
 
 ## 其他
