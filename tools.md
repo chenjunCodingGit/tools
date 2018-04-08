@@ -133,6 +133,8 @@ git push github some-branch  推送某个分支
 git reset --hard 46603c997cadb1bbcdac31c1471d4a1768416b6a
 git push -f
 
+git cherry -v                  查看到未传送到远程代码库的提交描述/说明
+git log master ^origin/master  查看到未传送到远程代码库的提交详情
 
 
 
