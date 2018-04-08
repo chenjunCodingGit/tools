@@ -194,6 +194,11 @@ https://github.com/nswbmw/N-blog
 7.  
 ```
 
+## mysql
+```
+pws:newpass
+```
+
 ## 其他
 
 ```
