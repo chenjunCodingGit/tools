@@ -43,6 +43,9 @@ sudo rm /var/lib/dpkg/lock
 apache 服务器:/Library/WebServer/Documents
 隐藏/显示文件：defaults write com.apple.finder AppleShowAllFiles -bool true
             killAll Finder
+
+ps -ef | grep xxx 模糊查看进程
+sudo netstat -nputl 服务器监听地址
 ```
 
 ## js技巧
@@ -197,6 +200,10 @@ https://github.com/nswbmw/N-blog
 pws:newpass
 pwsserver:newpass123456
 ```
+
+## mongo
+use admin
+db.system.version.find()
 
 ## 其他
 
