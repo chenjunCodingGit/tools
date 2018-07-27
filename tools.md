@@ -135,6 +135,7 @@ git push github some-branch  推送某个分支
 版本回退(重点)
 git reset --hard 46603c997cadb1bbcdac31c1471d4a1768416b6a
 git push -f
+git rev-parse --short HEAD     查看当前分支指向版本号 - 46603c997cadb1bbcdac31c1471d4a1768416b6a
 
 git cherry -v                  查看到未传送到远程代码库的提交描述/说明
 git log master ^origin/master  查看到未传送到远程代码库的提交详情
