@@ -104,13 +104,7 @@ sudo netstat -nputl 服务器监听地址
  
  
 ## github及git使用
-```github
-             github添加成员
-1.进入某个项目collaborators添加成员，成员通过邮箱同意
-2.成员进入自己github主页 setting->SSH and GPG keys->new ssh key,将
-  自己本机的ssh复制并添加。如果换了一台电脑，则重新该步骤
-
-
+```git
               git使用
 git remote -v                    查看远程地址
 git add .                        选择（映射）所有改变的文件
@@ -119,11 +113,16 @@ git remote add origin xxx.git    添加到远程
 git pull origin some-branch      拉取某个分支
 git push (-u) origin some-branch 推送某个分支
 git status -s                    看看该分支的状态
+git branch                       查看本地分支
+git branch -r                    查看远程分支
 git branch new-branch        	 新建某个分支
 git checkout some-branch     	 切换到某个分支/切换并新建到本地的远程某个分支
 git tag                      	 查看该项目所有tag版本
 git tag v0.2.2              	 新建tag（只要以前没有该tag版本都可以）
 git push origin v0.2.2      	 将新建的tag提交到该分支
+git push origin [branch-name]    创建远程分支(本地分支push到远程)
+git push origin :heads/[name]    删除远程分支
+git push origin :[name]          删除远程分支
 git merge master            	 在develop分支，将master分支合并到develop(合并某分支到当前分支)
 
 修改好.git/config后
