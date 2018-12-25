@@ -123,7 +123,11 @@ git push origin v0.2.2      	 将新建的tag提交到该分支
 git push origin [branch-name]    创建远程分支(本地分支push到远程)
 git push origin :heads/[name]    删除远程分支
 git push origin :[name]          删除远程分支
-git merge master            	 在develop分支，将master分支合并到develop(合并某分支到当前分支)
+git merge develop            	 将develop分支合并到当前分支
+git checkout some-branch /xx   把some-branch分支的部分文件合并到当前分支
+git reflog                     查看历史变更记录
+git reset --hard HEAD@{n}      回退
+
 
 修改好.git/config后
 git pull origin some-branch  拉取某个分支
